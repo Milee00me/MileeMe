@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E966164-60C9-4FF9-B4EA-8EE372E174F7</string>
+	<key>IDESourceControlProjectName</key>
+	<string>sportsmilee</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5AB98FA6F64040A677DF84A646D49AB8291042CB</key>
+		<string>https://github.com/Milee00me/Milee-Two-Project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>sportsmilee/sportsmilee.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5AB98FA6F64040A677DF84A646D49AB8291042CB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Milee00me/Milee-Two-Project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5AB98FA6F64040A677DF84A646D49AB8291042CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5AB98FA6F64040A677DF84A646D49AB8291042CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Milee-Two-Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63D1216619C77A04006AFB8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1216519C77A04006AFB8B /* AppDelegate.swift */; };
+		63D1216819C77A04006AFB8B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1216719C77A04006AFB8B /* ViewController.swift */; };
+		63D1216B19C77A04006AFB8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63D1216919C77A04006AFB8B /* Main.storyboard */; };
+		63D1216D19C77A04006AFB8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63D1216C19C77A04006AFB8B /* Images.xcassets */; };
+		63D1217919C77A04006AFB8B /* HellomileeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1217819C77A04006AFB8B /* HellomileeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63D1217319C77A04006AFB8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63D1215819C77A03006AFB8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63D1215F19C77A03006AFB8B;
+			remoteInfo = Hellomilee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63D1216019C77A03006AFB8B /* Hellomilee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hellomilee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D1216419C77A04006AFB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D1216519C77A04006AFB8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63D1216719C77A04006AFB8B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63D1216A19C77A04006AFB8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63D1216C19C77A04006AFB8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63D1217219C77A04006AFB8B /* HellomileeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellomileeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63D1217719C77A04006AFB8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63D1217819C77A04006AFB8B /* HellomileeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellomileeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63D1215D19C77A03006AFB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D1216F19C77A04006AFB8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63D1215719C77A03006AFB8B = {
+			isa = PBXGroup;
+			children = (
+				63D1216219C77A03006AFB8B /* Hellomilee */,
+				63D1217519C77A04006AFB8B /* HellomileeTests */,
+				63D1216119C77A03006AFB8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63D1216119C77A03006AFB8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63D1216019C77A03006AFB8B /* Hellomilee.app */,
+				63D1217219C77A04006AFB8B /* HellomileeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D1216219C77A03006AFB8B /* Hellomilee */ = {
+			isa = PBXGroup;
+			children = (
+				63D1216519C77A04006AFB8B /* AppDelegate.swift */,
+				63D1216719C77A04006AFB8B /* ViewController.swift */,
+				63D1216919C77A04006AFB8B /* Main.storyboard */,
+				63D1216C19C77A04006AFB8B /* Images.xcassets */,
+				63D1216319C77A03006AFB8B /* Supporting Files */,
+			);
+			path = Hellomilee;
+			sourceTree = "<group>";
+		};
+		63D1216319C77A03006AFB8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D1216419C77A04006AFB8B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63D1217519C77A04006AFB8B /* HellomileeTests */ = {
+			isa = PBXGroup;
+			children = (
+				63D1217819C77A04006AFB8B /* HellomileeTests.swift */,
+				63D1217619C77A04006AFB8B /* Supporting Files */,
+			);
+			path = HellomileeTests;
+			sourceTree = "<group>";
+		};
+		63D1217619C77A04006AFB8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63D1217719C77A04006AFB8B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63D1215F19C77A03006AFB8B /* Hellomilee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D1217C19C77A04006AFB8B /* Build configuration list for PBXNativeTarget "Hellomilee" */;
+			buildPhases = (
+				63D1215C19C77A03006AFB8B /* Sources */,
+				63D1215D19C77A03006AFB8B /* Frameworks */,
+				63D1215E19C77A03006AFB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hellomilee;
+			productName = Hellomilee;
+			productReference = 63D1216019C77A03006AFB8B /* Hellomilee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63D1217119C77A04006AFB8B /* HellomileeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63D1217F19C77A04006AFB8B /* Build configuration list for PBXNativeTarget "HellomileeTests" */;
+			buildPhases = (
+				63D1216E19C77A04006AFB8B /* Sources */,
+				63D1216F19C77A04006AFB8B /* Frameworks */,
+				63D1217019C77A04006AFB8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63D1217419C77A04006AFB8B /* PBXTargetDependency */,
+			);
+			name = HellomileeTests;
+			productName = HellomileeTests;
+			productReference = 63D1217219C77A04006AFB8B /* HellomileeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63D1215819C77A03006AFB8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Milee Shrestha";
+				TargetAttributes = {
+					63D1215F19C77A03006AFB8B = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					63D1217119C77A04006AFB8B = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 63D1215F19C77A03006AFB8B;
+					};
+				};
+			};
+			buildConfigurationList = 63D1215B19C77A03006AFB8B /* Build configuration list for PBXProject "Hellomilee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63D1215719C77A03006AFB8B;
+			productRefGroup = 63D1216119C77A03006AFB8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63D1215F19C77A03006AFB8B /* Hellomilee */,
+				63D1217119C77A04006AFB8B /* HellomileeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63D1215E19C77A03006AFB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1216B19C77A04006AFB8B /* Main.storyboard in Resources */,
+				63D1216D19C77A04006AFB8B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D1217019C77A04006AFB8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63D1215C19C77A03006AFB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1216819C77A04006AFB8B /* ViewController.swift in Sources */,
+				63D1216619C77A04006AFB8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D1216E19C77A04006AFB8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63D1217919C77A04006AFB8B /* HellomileeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63D1217419C77A04006AFB8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63D1215F19C77A03006AFB8B /* Hellomilee */;
+			targetProxy = 63D1217319C77A04006AFB8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63D1216919C77A04006AFB8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63D1216A19C77A04006AFB8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63D1217A19C77A04006AFB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63D1217B19C77A04006AFB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63D1217D19C77A04006AFB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Hellomilee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63D1217E19C77A04006AFB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Hellomilee/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63D1218019C77A04006AFB8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellomileeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hellomilee.app/Hellomilee";
+			};
+			name = Debug;
+		};
+		63D1218119C77A04006AFB8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellomileeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hellomilee.app/Hellomilee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63D1215B19C77A03006AFB8B /* Build configuration list for PBXProject "Hellomilee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D1217A19C77A04006AFB8B /* Debug */,
+				63D1217B19C77A04006AFB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63D1217C19C77A04006AFB8B /* Build configuration list for PBXNativeTarget "Hellomilee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D1217D19C77A04006AFB8B /* Debug */,
+				63D1217E19C77A04006AFB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63D1217F19C77A04006AFB8B /* Build configuration list for PBXNativeTarget "HellomileeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63D1218019C77A04006AFB8B /* Debug */,
+				63D1218119C77A04006AFB8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63D1215819C77A03006AFB8B /* Project object */;
+}
