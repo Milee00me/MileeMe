@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63BF9C9819CB359800B6687F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C9719CB359800B6687F /* AppDelegate.swift */; };
+		63BF9C9A19CB359800B6687F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9C9919CB359800B6687F /* ViewController.swift */; };
+		63BF9C9D19CB359800B6687F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BF9C9B19CB359800B6687F /* Main.storyboard */; };
+		63BF9C9F19CB359800B6687F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BF9C9E19CB359800B6687F /* Images.xcassets */; };
+		63BF9CAB19CB359800B6687F /* mileetipcalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BF9CAA19CB359800B6687F /* mileetipcalculatorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63BF9CA519CB359800B6687F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63BF9C8A19CB359800B6687F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63BF9C9119CB359800B6687F;
+			remoteInfo = mileetipcalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63BF9C9219CB359800B6687F /* mileetipcalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mileetipcalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BF9C9619CB359800B6687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BF9C9719CB359800B6687F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		63BF9C9919CB359800B6687F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		63BF9C9C19CB359800B6687F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63BF9C9E19CB359800B6687F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		63BF9CA419CB359800B6687F /* mileetipcalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mileetipcalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63BF9CA919CB359800B6687F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63BF9CAA19CB359800B6687F /* mileetipcalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mileetipcalculatorTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63BF9C8F19CB359800B6687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BF9CA119CB359800B6687F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63BF9C8919CB359800B6687F = {
+			isa = PBXGroup;
+			children = (
+				63BF9C9419CB359800B6687F /* mileetipcalculator */,
+				63BF9CA719CB359800B6687F /* mileetipcalculatorTests */,
+				63BF9C9319CB359800B6687F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63BF9C9319CB359800B6687F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63BF9C9219CB359800B6687F /* mileetipcalculator.app */,
+				63BF9CA419CB359800B6687F /* mileetipcalculatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63BF9C9419CB359800B6687F /* mileetipcalculator */ = {
+			isa = PBXGroup;
+			children = (
+				63BF9C9719CB359800B6687F /* AppDelegate.swift */,
+				63BF9C9919CB359800B6687F /* ViewController.swift */,
+				63BF9C9B19CB359800B6687F /* Main.storyboard */,
+				63BF9C9E19CB359800B6687F /* Images.xcassets */,
+				63BF9C9519CB359800B6687F /* Supporting Files */,
+			);
+			path = mileetipcalculator;
+			sourceTree = "<group>";
+		};
+		63BF9C9519CB359800B6687F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BF9C9619CB359800B6687F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63BF9CA719CB359800B6687F /* mileetipcalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				63BF9CAA19CB359800B6687F /* mileetipcalculatorTests.swift */,
+				63BF9CA819CB359800B6687F /* Supporting Files */,
+			);
+			path = mileetipcalculatorTests;
+			sourceTree = "<group>";
+		};
+		63BF9CA819CB359800B6687F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63BF9CA919CB359800B6687F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63BF9C9119CB359800B6687F /* mileetipcalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BF9CAE19CB359800B6687F /* Build configuration list for PBXNativeTarget "mileetipcalculator" */;
+			buildPhases = (
+				63BF9C8E19CB359800B6687F /* Sources */,
+				63BF9C8F19CB359800B6687F /* Frameworks */,
+				63BF9C9019CB359800B6687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mileetipcalculator;
+			productName = mileetipcalculator;
+			productReference = 63BF9C9219CB359800B6687F /* mileetipcalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63BF9CA319CB359800B6687F /* mileetipcalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63BF9CB119CB359800B6687F /* Build configuration list for PBXNativeTarget "mileetipcalculatorTests" */;
+			buildPhases = (
+				63BF9CA019CB359800B6687F /* Sources */,
+				63BF9CA119CB359800B6687F /* Frameworks */,
+				63BF9CA219CB359800B6687F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63BF9CA619CB359800B6687F /* PBXTargetDependency */,
+			);
+			name = mileetipcalculatorTests;
+			productName = mileetipcalculatorTests;
+			productReference = 63BF9CA419CB359800B6687F /* mileetipcalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63BF9C8A19CB359800B6687F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Milee Shrestha";
+				TargetAttributes = {
+					63BF9C9119CB359800B6687F = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					63BF9CA319CB359800B6687F = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 63BF9C9119CB359800B6687F;
+					};
+				};
+			};
+			buildConfigurationList = 63BF9C8D19CB359800B6687F /* Build configuration list for PBXProject "mileetipcalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63BF9C8919CB359800B6687F;
+			productRefGroup = 63BF9C9319CB359800B6687F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63BF9C9119CB359800B6687F /* mileetipcalculator */,
+				63BF9CA319CB359800B6687F /* mileetipcalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63BF9C9019CB359800B6687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BF9C9D19CB359800B6687F /* Main.storyboard in Resources */,
+				63BF9C9F19CB359800B6687F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BF9CA219CB359800B6687F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63BF9C8E19CB359800B6687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BF9C9A19CB359800B6687F /* ViewController.swift in Sources */,
+				63BF9C9819CB359800B6687F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63BF9CA019CB359800B6687F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63BF9CAB19CB359800B6687F /* mileetipcalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63BF9CA619CB359800B6687F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63BF9C9119CB359800B6687F /* mileetipcalculator */;
+			targetProxy = 63BF9CA519CB359800B6687F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63BF9C9B19CB359800B6687F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63BF9C9C19CB359800B6687F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63BF9CAC19CB359800B6687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63BF9CAD19CB359800B6687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63BF9CAF19CB359800B6687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = mileetipcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63BF9CB019CB359800B6687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = mileetipcalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63BF9CB219CB359800B6687F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mileetipcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mileetipcalculator.app/mileetipcalculator";
+			};
+			name = Debug;
+		};
+		63BF9CB319CB359800B6687F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = mileetipcalculatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mileetipcalculator.app/mileetipcalculator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63BF9C8D19CB359800B6687F /* Build configuration list for PBXProject "mileetipcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BF9CAC19CB359800B6687F /* Debug */,
+				63BF9CAD19CB359800B6687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63BF9CAE19CB359800B6687F /* Build configuration list for PBXNativeTarget "mileetipcalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BF9CAF19CB359800B6687F /* Debug */,
+				63BF9CB019CB359800B6687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63BF9CB119CB359800B6687F /* Build configuration list for PBXNativeTarget "mileetipcalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63BF9CB219CB359800B6687F /* Debug */,
+				63BF9CB319CB359800B6687F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63BF9C8A19CB359800B6687F /* Project object */;
+}
