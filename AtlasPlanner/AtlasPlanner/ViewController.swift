@@ -72,7 +72,7 @@ class ViewController: UIViewController {
             Result1.text="PhD, 1st Year, Spring Term"
             Course1Text.text="1. PhD Seminar"
             Course2Text.text="2. Quantitative Analysis"
-            Course3Text.text="3. Qualiitative Analysis"
+            Course3Text.text="3. Qualitative Analysis"
         }
         //P1F
         if ProgramSegment.selectedSegmentIndex==1 && YearSegment.selectedSegmentIndex==0 && TermSegment.selectedSegmentIndex==1 {
