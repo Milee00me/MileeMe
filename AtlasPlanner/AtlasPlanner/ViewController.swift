@@ -55,7 +55,7 @@ class ViewController: UIViewController {
         
         //M2S
         if ProgramSegment.selectedSegmentIndex==0 && YearSegment.selectedSegmentIndex==1 && TermSegment.selectedSegmentIndex==0 {
-            Result1.text="Master's, 1st Year, Fall Term"
+            Result1.text="Master's, 2nd Year, Fall Term"
             Course1Text.text="Practicum"
             Course2Text.text=" "
             Course3Text.text=" "
