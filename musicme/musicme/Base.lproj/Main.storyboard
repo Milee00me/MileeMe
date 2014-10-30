@@ -17,29 +17,52 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" text="First View" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="221" y="279" width="158" height="42"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JjU-L5-B5S">
+                                <rect key="frame" x="141" y="393" width="318" height="89"/>
+                                <color key="backgroundColor" red="0.88617921270718236" green="0.50840921281468021" blue="0.19473272988726736" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="jAv-3E-Mq7"/>
+                                    <constraint firstAttribute="height" constant="89" id="jqd-wE-2kX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loaded by FirstViewController" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A5M-7J-77L">
-                                <rect key="frame" x="203" y="329" width="195" height="17"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Music Picker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="toV-XM-CAo">
+                                <rect key="frame" x="251" y="54" width="99" height="131"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="131" id="VKo-f2-4QB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ued-a6-fnv">
+                                <rect key="frame" x="16" y="117" width="568" height="162"/>
+                                <color key="backgroundColor" red="0.83763586960000003" green="0.3848294109" blue="0.20187906350000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="9pv-A4-QxB" id="o6N-C9-YQZ"/>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="2kX-Wu-fQT"/>
+                                </connections>
+                            </pickerView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.6461266710458311" blue="0.23001575692173815" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
-                            <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstItem="ued-a6-fnv" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" id="5kf-uQ-Jt9"/>
+                            <constraint firstAttribute="centerY" secondItem="ued-a6-fnv" secondAttribute="centerY" constant="102" id="LGL-xx-lHQ"/>
+                            <constraint firstItem="ued-a6-fnv" firstAttribute="top" secondItem="toV-XM-CAo" secondAttribute="bottom" constant="-68" id="QdT-uN-tp3"/>
+                            <constraint firstItem="toV-XM-CAo" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="34" id="Qhk-Y3-qCr"/>
+                            <constraint firstItem="ued-a6-fnv" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailingMargin" id="cJa-w7-1x5"/>
+                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="JjU-L5-B5S" secondAttribute="bottom" constant="69" id="gUM-oZ-V39"/>
+                            <constraint firstItem="ued-a6-fnv" firstAttribute="centerX" secondItem="toV-XM-CAo" secondAttribute="centerX" id="jIM-KE-nU5"/>
+                            <constraint firstItem="ued-a6-fnv" firstAttribute="centerX" secondItem="JjU-L5-B5S" secondAttribute="centerX" id="sNQ-iA-WZ9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="First" image="music1" id="acW-dT-cKf"/>
+                    <connections>
+                        <outlet property="choiceLabel" destination="JjU-L5-B5S" id="4KP-zl-pRl"/>
+                        <outlet property="musicPicker" destination="ued-a6-fnv" id="pan-gc-RbY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -137,7 +160,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQH-Jd-SOm">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MQH-Jd-SOm">
                                 <rect key="frame" x="266" y="482" width="99" height="41"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="41" id="Kum-ec-jkt"/>
@@ -171,7 +194,7 @@
                             <constraint firstItem="aa3-81-TCQ" firstAttribute="leading" secondItem="35V-HG-GhW" secondAttribute="leadingMargin" constant="74" id="ZV3-Ko-hyA"/>
                             <constraint firstItem="rEd-Gb-BGO" firstAttribute="top" secondItem="eLH-EN-6an" secondAttribute="bottom" constant="51" id="dFl-W6-XM4"/>
                             <constraint firstItem="eLH-EN-6an" firstAttribute="leading" secondItem="DCy-Sr-Z8H" secondAttribute="trailing" constant="44" id="eGC-G8-ksh"/>
-                            <constraint firstAttribute="centerX" secondItem="MQH-Jd-SOm" secondAttribute="centerX" id="lGq-UX-tsg"/>
+                            <constraint firstAttribute="centerX" secondItem="MQH-Jd-SOm" secondAttribute="centerX" constant="-15.5" id="lGq-UX-tsg"/>
                             <constraint firstItem="DCy-Sr-Z8H" firstAttribute="leading" secondItem="35V-HG-GhW" secondAttribute="leadingMargin" constant="79" id="nyW-Q7-OS4"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aa3-81-TCQ" secondAttribute="trailing" constant="57" id="qMg-Sx-D2U"/>
                             <constraint firstItem="rEd-Gb-BGO" firstAttribute="leading" secondItem="eLH-EN-6an" secondAttribute="leading" id="u3v-0C-eB3"/>
@@ -190,6 +213,70 @@
             </objects>
             <point key="canvasLocation" x="506" y="1099"/>
         </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="n0b-ql-e89">
+            <objects>
+                <viewController id="VqA-0E-28v" customClass="FourthViewController" customModule="musicme" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hhi-XF-cwC"/>
+                        <viewControllerLayoutGuide type="bottom" id="EY1-Ed-BbQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aSF-6w-NSm">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SXh-Lb-esC">
+                                <rect key="frame" x="89" y="404" width="423" height="93"/>
+                                <color key="backgroundColor" red="0.83939792800000002" green="0.68252572980000004" blue="0.096857145850000007" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="93" id="mJc-93-qG4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8cM-RA-gMf">
+                                <rect key="frame" x="16" y="180" width="568" height="162"/>
+                                <color key="backgroundColor" red="0.8861792127" green="0.50840921279999995" blue="0.19473272990000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="VqA-0E-28v" id="6x8-BF-dwx"/>
+                                    <outlet property="delegate" destination="VqA-0E-28v" id="TeT-BD-R62"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artist Picker" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eM-lM-aiD">
+                                <rect key="frame" x="239" y="69" width="123" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="MM1-yU-B43"/>
+                                    <constraint firstAttribute="width" constant="123" id="Mvc-nk-JJi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.84806099800000001" blue="0.17686770260000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="SXh-Lb-esC" firstAttribute="leading" secondItem="aSF-6w-NSm" secondAttribute="leadingMargin" constant="73" id="0bF-Uf-Rfw"/>
+                            <constraint firstItem="8cM-RA-gMf" firstAttribute="leading" secondItem="aSF-6w-NSm" secondAttribute="leadingMargin" id="9ui-PC-U8C"/>
+                            <constraint firstItem="8cM-RA-gMf" firstAttribute="centerX" secondItem="4eM-lM-aiD" secondAttribute="centerX" id="VjO-Qd-eI9"/>
+                            <constraint firstItem="8cM-RA-gMf" firstAttribute="centerX" secondItem="SXh-Lb-esC" secondAttribute="centerX" id="Ytq-Zv-CYN"/>
+                            <constraint firstItem="EY1-Ed-BbQ" firstAttribute="top" secondItem="SXh-Lb-esC" secondAttribute="bottom" constant="54" id="eHg-Re-ubm"/>
+                            <constraint firstItem="4eM-lM-aiD" firstAttribute="top" secondItem="hhi-XF-cwC" secondAttribute="bottom" constant="49" id="fob-fA-QA1"/>
+                            <constraint firstItem="SXh-Lb-esC" firstAttribute="top" secondItem="8cM-RA-gMf" secondAttribute="bottom" constant="62" id="lxT-ey-yFH"/>
+                            <constraint firstItem="8cM-RA-gMf" firstAttribute="trailing" secondItem="aSF-6w-NSm" secondAttribute="trailingMargin" id="rQs-x4-od8"/>
+                            <constraint firstAttribute="centerY" secondItem="8cM-RA-gMf" secondAttribute="centerY" constant="39" id="t9E-TY-aWa"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" image="artist" id="M4D-SP-BLL"/>
+                    <connections>
+                        <outlet property="artistPicker" destination="8cM-RA-gMf" id="jOP-V6-CRq"/>
+                        <outlet property="choiceLabel" destination="SXh-Lb-esC" id="j9w-Am-fxE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DNN-D0-D2e" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-178" y="1099"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -204,6 +291,7 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="w3O-e4-Uaz" kind="relationship" relationship="viewControllers" id="0le-kl-fPk"/>
+                        <segue destination="VqA-0E-28v" kind="relationship" relationship="viewControllers" id="TIk-xq-Rkq"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -212,8 +300,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="artist" width="24" height="28"/>
         <image name="email" width="32" height="20"/>
-        <image name="first" width="30" height="30"/>
         <image name="music" width="18" height="25"/>
+        <image name="music1" width="28" height="18"/>
     </resources>
 </document>

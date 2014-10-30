@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63B08B2C1A01CE1400F9F82F /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B08B2A1A01CE1400F9F82F /* FourthViewController.swift */; };
+		63B08B2F1A01CF0B00F9F82F /* artistalbums.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63B08B2E1A01CF0B00F9F82F /* artistalbums.plist */; };
 		63D1D39C1A018509000183B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D39B1A018509000183B2 /* AppDelegate.swift */; };
 		63D1D39E1A018509000183B2 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D39D1A018509000183B2 /* FirstViewController.swift */; };
 		63D1D3A01A018509000183B2 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63D1D39F1A018509000183B2 /* SecondViewController.swift */; };
@@ -28,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63B08B2A1A01CE1400F9F82F /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		63B08B2E1A01CF0B00F9F82F /* artistalbums.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = artistalbums.plist; sourceTree = "<group>"; };
 		63D1D3961A018509000183B2 /* musicme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = musicme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63D1D39A1A018509000183B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D1D39B1A018509000183B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				63D1D39F1A018509000183B2 /* SecondViewController.swift */,
 				63D1D3A11A018509000183B2 /* Main.storyboard */,
 				63D1D3BD1A019790000183B2 /* ThirdViewController.swift */,
+				63B08B2A1A01CE1400F9F82F /* FourthViewController.swift */,
 				63D1D3A41A018509000183B2 /* Images.xcassets */,
 				63D1D3A61A01850A000183B2 /* LaunchScreen.xib */,
 				63D1D3991A018509000183B2 /* Supporting Files */,
@@ -96,6 +101,7 @@
 		63D1D3991A018509000183B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				63B08B2E1A01CF0B00F9F82F /* artistalbums.plist */,
 				63D1D39A1A018509000183B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -167,6 +173,7 @@
 				TargetAttributes = {
 					63D1D3951A018509000183B2 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = 32C86W6J58;
 					};
 					63D1D3AC1A01850A000183B2 = {
 						CreatedOnToolsVersion = 6.1;
@@ -201,6 +208,7 @@
 				63D1D3A31A018509000183B2 /* Main.storyboard in Resources */,
 				63D1D3A81A01850A000183B2 /* LaunchScreen.xib in Resources */,
 				63D1D3A51A018509000183B2 /* Images.xcassets in Resources */,
+				63B08B2F1A01CF0B00F9F82F /* artistalbums.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +230,7 @@
 				63D1D39C1A018509000183B2 /* AppDelegate.swift in Sources */,
 				63D1D3BE1A019790000183B2 /* ThirdViewController.swift in Sources */,
 				63D1D39E1A018509000183B2 /* FirstViewController.swift in Sources */,
+				63B08B2C1A01CE1400F9F82F /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,7 +306,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -334,7 +343,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -346,9 +355,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = musicme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -356,9 +370,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = musicme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -415,6 +434,7 @@
 				63D1D3B91A01850A000183B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63D1D3BA1A01850A000183B2 /* Build configuration list for PBXNativeTarget "musicmeTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +443,7 @@
 				63D1D3BC1A01850A000183B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

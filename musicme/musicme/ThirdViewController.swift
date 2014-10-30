@@ -27,7 +27,7 @@ class ThirdViewController: UIViewController {
         
         email = email.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)!
         
-        UIApplication.sharedApplication().openURL(NSURL.URLWithString(email))
+        UIApplication.sharedApplication().openURL(NSURL(fileURLWithPath: email)!)
     }
 
     override func viewDidLoad() {

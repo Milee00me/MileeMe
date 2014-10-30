@@ -17,8 +17,8 @@ class SecondViewController: UIViewController, UIWebViewDelegate {
     
     func loadWebPage(urlString: String){
         //the string passed should be a properly formed url
-        let url = NSURL.URLWithString(urlString) //creates a NSURL object with the string passed in
-        let request = NSURLRequest(URL: url) //creates a NSURLRequest object
+        let url = NSURL(fileURLWithPath: urlString) //creates a NSURL object with the string passed in
+        let request = NSURLRequest(URL: url!) //creates a NSURLRequest object
         musicWebView.loadRequest(request) //loads the NSURLRequest object in our web view
     }
     
