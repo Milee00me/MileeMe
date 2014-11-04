@@ -64,7 +64,7 @@ class DetailViewController: UITableViewController, UITableViewDataSource, UITabl
         let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as UITableViewCell
         
         //sets the text of the cell with the row being requested
-        cell.textLabel?.text=countries[indexPath.row]
+        cell.textLabel.text=countries[indexPath.row]
 
         // Configure the cell...
 
@@ -85,7 +85,7 @@ class DetailViewController: UITableViewController, UITableViewDataSource, UITabl
     // Override to support editing the table view.
     override func tableView(tableView: UITableView, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath) {
         
-        NSLog("\(countries)")
+      //  NSLog("\(countries)")
         
         if editingStyle == .Delete {
             
@@ -103,7 +103,7 @@ class DetailViewController: UITableViewController, UITableViewDataSource, UITabl
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
      
         }
-        NSLog("\(countries)")
+       // NSLog("\(countries)")
     }
     
 

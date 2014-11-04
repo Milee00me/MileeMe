@@ -21,7 +21,7 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
         
         //Load th words if the plist file into the array
         
-        continentList.continentData = NSMutableDictionary(contentsOfFile: path!)
+        continentList.continentData = NSMutableDictionary(contentsOfFile: path!)!
         
         // gets all keys which are the continents
         
@@ -49,7 +49,7 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
         //configure the cell
         let cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as UITableViewCell
         //set the text of the cell
-        cell.textLabel?.text=continentList.continents[indexPath.row]
+        cell.textLabel.text=continentList.continents[indexPath.row]
         return cell
     }
     
