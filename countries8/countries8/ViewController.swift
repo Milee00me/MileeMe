@@ -28,7 +28,7 @@ class ViewController: UITableViewController, UITableViewDataSource, UITableViewD
         continentList.continents = continentList.continentData.allKeys as [String]
         
         //object and instance variable defined in continents.swift
-       // NSLog("\(continentList.continents)")
+       //NSLog("\(continentList.continents)")
         super.viewDidLoad()
         
         // Do any additional setup after loading the view, typically from a nib.

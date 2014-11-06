@@ -21,7 +21,7 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <segue destination="eob-Af-Inm" kind="show" identifier="continentSegue" trigger="accessoryAction" id="xv3-Aa-2gv"/>
-                                    <segue destination="TDe-5B-U4n" kind="show" id="itx-gd-pfu"/>
+                                    <segue destination="TDe-5B-U4n" kind="show" identifier="countrysegue" id="itx-gd-pfu"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
