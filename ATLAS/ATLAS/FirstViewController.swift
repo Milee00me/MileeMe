@@ -29,16 +29,21 @@ class FirstViewController: UIViewController {
         let isLoggedIn:Int = prefs.integerForKey("ISLOGGEDIN") as Int
         
         if (isLoggedIn != 1){
-        
-        self.performSegueWithIdentifier("loginSegue", sender: self)
-    }
-        
+            self.performSegueWithIdentifier("loginSegue", sender: self)
+        }
+            
         else {
             self.nameLabel.text = prefs.valueForKey("USERNAME") as NSString
         }
     }
 
-    @IBAction func logOutPressed(sender: UIButton) {
+   // @IBAction func logOutPressed(sender: UIButton) 
+    
+    func logOutPressed()
+    
+    {
+    
+    
         
         let appDomain = NSBundle.mainBundle().bundleIdentifier
         NSUserDefaults.standardUserDefaults().removePersistentDomainForName(appDomain!)

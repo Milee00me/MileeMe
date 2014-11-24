@@ -66,10 +66,10 @@ class LoginViewController: UIViewController {
                     
                     var error: NSError?
                     
-                    let mileeData:NSDictionary = NSJSONSerialization.JSONObjectWithData(urlData!, options:NSJSONReadingOptions.MutableContainers , error: &error) as NSDictionary
+                    let jsonData:NSDictionary = NSJSONSerialization.JSONObjectWithData(urlData!, options:NSJSONReadingOptions.MutableContainers , error: &error) as NSDictionary
                     
                     
-                    let success:NSInteger = mileeData.valueForKey("success") as NSInteger
+                    let success:NSInteger = jsonData.valueForKey("success") as NSInteger
                     
                     //[jsonData[@"success"] integerValue];
                     
@@ -88,8 +88,8 @@ class LoginViewController: UIViewController {
                    } else {
                         var error_msg:NSString
                         
-                    if mileeData["error_message"] as? NSString != nil {
-                            error_msg = mileeData["error_message"] as NSString
+                    if jsonData["error_message"] as? NSString != nil {
+                            error_msg = jsonData["error_message"] as NSString
                         } else {
                             error_msg = "Unknown Error"
                         }

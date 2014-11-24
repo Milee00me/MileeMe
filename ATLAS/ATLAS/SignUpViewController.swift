@@ -85,11 +85,12 @@ class SignUpViewController: UIViewController {
                     var error: NSError?
                     
                    
-                   let mileeData:NSDictionary = NSJSONSerialization.JSONObjectWithData(urlData!, options:NSJSONReadingOptions.MutableContainers , error: &error) as NSDictionary
+                    let jsonData:NSDictionary = NSJSONSerialization.JSONObjectWithData(urlData!, options:NSJSONReadingOptions.MutableContainers , error: &error) as NSDictionary
+
 
                     
                     
-                    let success:NSInteger = mileeData.valueForKey("success") as NSInteger
+                    let success:NSInteger = jsonData.valueForKey("success") as NSInteger
                     
                     //[milee[@"success"] integerValue];
                     
@@ -106,8 +107,8 @@ class SignUpViewController: UIViewController {
                         
                         var error_msg:NSString
                         
-                        if mileeData["error_message"] as? NSString != nil {
-                            error_msg = mileeData["error_message"] as NSString
+                        if jsonData["error_message"] as? NSString != nil {
+                            error_msg = jsonData["error_message"] as NSString
                         }
                         
                         else {
