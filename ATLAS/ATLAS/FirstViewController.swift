@@ -39,18 +39,18 @@ class FirstViewController: UIViewController {
 
    // @IBAction func logOutPressed(sender: UIButton) 
     
-    func logOutPressed()
+   // func logOutPressed()
     
-    {
+   // {
     
     
         
-        let appDomain = NSBundle.mainBundle().bundleIdentifier
-        NSUserDefaults.standardUserDefaults().removePersistentDomainForName(appDomain!)
+      //  let appDomain = NSBundle.mainBundle().bundleIdentifier
+     //   NSUserDefaults.standardUserDefaults().removePersistentDomainForName(appDomain!)
         
-        self.performSegueWithIdentifier("loginSegue", sender: self)
+      // self.performSegueWithIdentifier("loginSegue", sender: self)
 
-    }
+   // }
 
 }
 
