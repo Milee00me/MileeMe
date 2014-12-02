@@ -14,11 +14,11 @@
 		<string>https://github.com/Milee00me/MileeMe.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ATLAS/ATLAS.xcodeproj</string>
+	<string>Project 2/ATLAS/ATLAS.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>1F2C6E1C7EB122B70CE005E6620F2E54933BEE53</key>
-		<string>../../..</string>
+		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/Milee00me/MileeMe.git</string>
