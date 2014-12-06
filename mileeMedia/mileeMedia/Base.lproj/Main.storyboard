@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="mileeMedia" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="naM-dY-R6w">
+                                <rect key="frame" x="16" y="548" width="568" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="camera" id="M9O-UX-MMe">
+                                        <connections>
+                                            <action selector="cameraButtonTapped:" destination="vXZ-lx-hvc" id="fg3-Tt-lxe"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XaO-mF-h5y"/>
+                                    <barButtonItem systemItem="action" id="db3-by-BVe">
+                                        <connections>
+                                            <action selector="actionButtonTapped:" destination="vXZ-lx-hvc" id="zRa-NU-y53"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wKb-NL-9Yh">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="542"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="naM-dY-R6w" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="0BD-kq-tvF"/>
+                            <constraint firstItem="wKb-NL-9Yh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="2Kp-n2-UlY"/>
+                            <constraint firstItem="naM-dY-R6w" firstAttribute="top" secondItem="wKb-NL-9Yh" secondAttribute="bottom" constant="6" id="Oyl-Am-2d4"/>
+                            <constraint firstItem="wKb-NL-9Yh" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="Pwm-wk-mwS"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="naM-dY-R6w" secondAttribute="bottom" constant="8" id="WRg-M7-Ged"/>
+                            <constraint firstItem="wKb-NL-9Yh" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" constant="16" id="kW6-xT-Cku"/>
+                            <constraint firstItem="naM-dY-R6w" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="uiU-Wo-Pfy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="wKb-NL-9Yh" id="IFy-O1-Ten"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
