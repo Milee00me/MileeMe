@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		636B37BC1A375A90000992A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B37BB1A375A90000992A7 /* AppDelegate.swift */; };
+		636B37BE1A375A90000992A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B37BD1A375A90000992A7 /* ViewController.swift */; };
+		636B37C11A375A90000992A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636B37BF1A375A90000992A7 /* Main.storyboard */; };
+		636B37C31A375A90000992A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636B37C21A375A90000992A7 /* Images.xcassets */; };
+		636B37C61A375A90000992A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 636B37C41A375A90000992A7 /* LaunchScreen.xib */; };
+		636B37D21A375A90000992A7 /* crystalSugarGesturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636B37D11A375A90000992A7 /* crystalSugarGesturesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		636B37CC1A375A90000992A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 636B37AE1A375A90000992A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 636B37B51A375A90000992A7;
+			remoteInfo = crystalSugarGestures;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		636B37B61A375A90000992A7 /* crystalSugarGestures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = crystalSugarGestures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		636B37BA1A375A90000992A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636B37BB1A375A90000992A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		636B37BD1A375A90000992A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		636B37C01A375A90000992A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		636B37C21A375A90000992A7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		636B37C51A375A90000992A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		636B37CB1A375A90000992A7 /* crystalSugarGesturesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = crystalSugarGesturesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		636B37D01A375A90000992A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636B37D11A375A90000992A7 /* crystalSugarGesturesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crystalSugarGesturesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		636B37B31A375A90000992A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636B37C81A375A90000992A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		636B37AD1A375A90000992A7 = {
+			isa = PBXGroup;
+			children = (
+				636B37B81A375A90000992A7 /* crystalSugarGestures */,
+				636B37CE1A375A90000992A7 /* crystalSugarGesturesTests */,
+				636B37B71A375A90000992A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		636B37B71A375A90000992A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				636B37B61A375A90000992A7 /* crystalSugarGestures.app */,
+				636B37CB1A375A90000992A7 /* crystalSugarGesturesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		636B37B81A375A90000992A7 /* crystalSugarGestures */ = {
+			isa = PBXGroup;
+			children = (
+				636B37BB1A375A90000992A7 /* AppDelegate.swift */,
+				636B37BD1A375A90000992A7 /* ViewController.swift */,
+				636B37BF1A375A90000992A7 /* Main.storyboard */,
+				636B37C21A375A90000992A7 /* Images.xcassets */,
+				636B37C41A375A90000992A7 /* LaunchScreen.xib */,
+				636B37B91A375A90000992A7 /* Supporting Files */,
+			);
+			path = crystalSugarGestures;
+			sourceTree = "<group>";
+		};
+		636B37B91A375A90000992A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636B37BA1A375A90000992A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		636B37CE1A375A90000992A7 /* crystalSugarGesturesTests */ = {
+			isa = PBXGroup;
+			children = (
+				636B37D11A375A90000992A7 /* crystalSugarGesturesTests.swift */,
+				636B37CF1A375A90000992A7 /* Supporting Files */,
+			);
+			path = crystalSugarGesturesTests;
+			sourceTree = "<group>";
+		};
+		636B37CF1A375A90000992A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				636B37D01A375A90000992A7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		636B37B51A375A90000992A7 /* crystalSugarGestures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636B37D51A375A90000992A7 /* Build configuration list for PBXNativeTarget "crystalSugarGestures" */;
+			buildPhases = (
+				636B37B21A375A90000992A7 /* Sources */,
+				636B37B31A375A90000992A7 /* Frameworks */,
+				636B37B41A375A90000992A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = crystalSugarGestures;
+			productName = crystalSugarGestures;
+			productReference = 636B37B61A375A90000992A7 /* crystalSugarGestures.app */;
+			productType = "com.apple.product-type.application";
+		};
+		636B37CA1A375A90000992A7 /* crystalSugarGesturesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 636B37D81A375A90000992A7 /* Build configuration list for PBXNativeTarget "crystalSugarGesturesTests" */;
+			buildPhases = (
+				636B37C71A375A90000992A7 /* Sources */,
+				636B37C81A375A90000992A7 /* Frameworks */,
+				636B37C91A375A90000992A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				636B37CD1A375A90000992A7 /* PBXTargetDependency */,
+			);
+			name = crystalSugarGesturesTests;
+			productName = crystalSugarGesturesTests;
+			productReference = 636B37CB1A375A90000992A7 /* crystalSugarGesturesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		636B37AE1A375A90000992A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Milee Shrestha";
+				TargetAttributes = {
+					636B37B51A375A90000992A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					636B37CA1A375A90000992A7 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 636B37B51A375A90000992A7;
+					};
+				};
+			};
+			buildConfigurationList = 636B37B11A375A90000992A7 /* Build configuration list for PBXProject "crystalSugarGestures" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 636B37AD1A375A90000992A7;
+			productRefGroup = 636B37B71A375A90000992A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				636B37B51A375A90000992A7 /* crystalSugarGestures */,
+				636B37CA1A375A90000992A7 /* crystalSugarGesturesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		636B37B41A375A90000992A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636B37C11A375A90000992A7 /* Main.storyboard in Resources */,
+				636B37C61A375A90000992A7 /* LaunchScreen.xib in Resources */,
+				636B37C31A375A90000992A7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636B37C91A375A90000992A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		636B37B21A375A90000992A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636B37BE1A375A90000992A7 /* ViewController.swift in Sources */,
+				636B37BC1A375A90000992A7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		636B37C71A375A90000992A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				636B37D21A375A90000992A7 /* crystalSugarGesturesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		636B37CD1A375A90000992A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 636B37B51A375A90000992A7 /* crystalSugarGestures */;
+			targetProxy = 636B37CC1A375A90000992A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		636B37BF1A375A90000992A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636B37C01A375A90000992A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		636B37C41A375A90000992A7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				636B37C51A375A90000992A7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		636B37D31A375A90000992A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		636B37D41A375A90000992A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		636B37D61A375A90000992A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = crystalSugarGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		636B37D71A375A90000992A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = crystalSugarGestures/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		636B37D91A375A90000992A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = crystalSugarGesturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crystalSugarGestures.app/crystalSugarGestures";
+			};
+			name = Debug;
+		};
+		636B37DA1A375A90000992A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = crystalSugarGesturesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/crystalSugarGestures.app/crystalSugarGestures";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		636B37B11A375A90000992A7 /* Build configuration list for PBXProject "crystalSugarGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636B37D31A375A90000992A7 /* Debug */,
+				636B37D41A375A90000992A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		636B37D51A375A90000992A7 /* Build configuration list for PBXNativeTarget "crystalSugarGestures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636B37D61A375A90000992A7 /* Debug */,
+				636B37D71A375A90000992A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		636B37D81A375A90000992A7 /* Build configuration list for PBXNativeTarget "crystalSugarGesturesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				636B37D91A375A90000992A7 /* Debug */,
+				636B37DA1A375A90000992A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 636B37AE1A375A90000992A7 /* Project object */;
+}
