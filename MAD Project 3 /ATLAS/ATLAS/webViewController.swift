@@ -50,15 +50,7 @@ class webViewController: UIViewController {
         
         
 }
-    
-    //func stopAudioPLayer() {
-       // if audioPlayer.playing {
-         //  audioPlayer.stop()
-       // }
-    //}
-    
-    
-    
+        
 
 }
 
