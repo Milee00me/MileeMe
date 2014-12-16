@@ -21,7 +21,6 @@
 		638709C91A3F293F00DE9993 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 638709C81A3F293F00DE9993 /* AVFoundation.framework */; };
 		6390BD7B1A3A325000991991 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390BD7A1A3A325000991991 /* Members.swift */; };
 		6390BD7D1A3A400D00991991 /* memberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390BD7C1A3A400D00991991 /* memberViewController.swift */; };
-		6390BD7F1A3A5D5E00991991 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6390BD7E1A3A5D5D00991991 /* DetailViewController.swift */; };
 		63BCFB6A1A35336400039ABB /* AtlasMembers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63BCFB691A35336400039ABB /* AtlasMembers.plist */; };
 /* End PBXBuildFile section */
 
@@ -54,7 +53,6 @@
 		638709C81A3F293F00DE9993 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6390BD7A1A3A325000991991 /* Members.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Members.swift; path = ../Members.swift; sourceTree = "<group>"; };
 		6390BD7C1A3A400D00991991 /* memberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = memberViewController.swift; path = ../memberViewController.swift; sourceTree = "<group>"; };
-		6390BD7E1A3A5D5D00991991 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		63BCFB691A35336400039ABB /* AtlasMembers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AtlasMembers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,7 +106,6 @@
 				638709C41A3F261500DE9993 /* webViewController.swift */,
 				6390BD7A1A3A325000991991 /* Members.swift */,
 				6390BD7C1A3A400D00991991 /* memberViewController.swift */,
-				6390BD7E1A3A5D5D00991991 /* DetailViewController.swift */,
 				634DD4E01A12CFEB00D4B9BF /* Images.xcassets */,
 				634DD4E21A12CFEB00D4B9BF /* LaunchScreen.xib */,
 				634DD4D51A12CFEB00D4B9BF /* Supporting Files */,
@@ -253,7 +250,6 @@
 				638709C51A3F261500DE9993 /* webViewController.swift in Sources */,
 				634DD4DA1A12CFEB00D4B9BF /* FirstViewController.swift in Sources */,
 				634DD4FE1A13A94600D4B9BF /* SignUpViewController.swift in Sources */,
-				6390BD7F1A3A5D5E00991991 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
