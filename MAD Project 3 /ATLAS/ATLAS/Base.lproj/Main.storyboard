@@ -281,17 +281,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Cby-wj-WSJ">
+                                <rect key="frame" x="290" y="265" width="20" height="20"/>
+                                <color key="color" red="1" green="0.84806099800000001" blue="0.17686770260000001" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                             <webView autoresizesSubviews="NO" contentMode="scaleToFill" horizontalHuggingPriority="100" translatesAutoresizingMaskIntoConstraints="NO" id="fjl-xi-8kt">
-                                <rect key="frame" x="-81" y="20" width="600" height="523"/>
+                                <rect key="frame" x="-64" y="2" width="608" height="545"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="fjl-xi-8kt" firstAttribute="leading" secondItem="GdB-WP-AIk" secondAttribute="leadingMargin" constant="-97" id="IgT-Xc-2cR"/>
-                            <constraint firstItem="fjl-xi-8kt" firstAttribute="top" secondItem="uB7-TT-YR5" secondAttribute="bottom" id="OEj-6H-nnd"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="fjl-xi-8kt" secondAttribute="trailing" constant="65" id="q8M-eb-ALn"/>
-                            <constraint firstAttribute="bottomMargin" secondItem="fjl-xi-8kt" secondAttribute="bottom" constant="57" id="v4Q-nW-i7k"/>
+                            <constraint firstItem="fjl-xi-8kt" firstAttribute="leading" secondItem="GdB-WP-AIk" secondAttribute="leadingMargin" constant="-80" id="IgT-Xc-2cR"/>
+                            <constraint firstItem="fjl-xi-8kt" firstAttribute="top" secondItem="uB7-TT-YR5" secondAttribute="bottom" constant="-18" id="OEj-6H-nnd"/>
+                            <constraint firstItem="Cby-wj-WSJ" firstAttribute="top" secondItem="uB7-TT-YR5" secondAttribute="bottom" constant="245" id="ap1-yj-Jaq"/>
+                            <constraint firstItem="Cby-wj-WSJ" firstAttribute="leading" secondItem="GdB-WP-AIk" secondAttribute="leadingMargin" constant="274" id="l9b-bf-zfA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fjl-xi-8kt" secondAttribute="trailing" constant="40" id="q8M-eb-ALn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Cby-wj-WSJ" secondAttribute="trailing" constant="274" id="sT7-80-gPC"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="fjl-xi-8kt" secondAttribute="bottom" constant="53" id="v4Q-nW-i7k"/>
+                            <constraint firstItem="3ff-e6-DCV" firstAttribute="top" secondItem="Cby-wj-WSJ" secondAttribute="bottom" constant="266" id="xca-IC-Nsn"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Web" image="fourth" id="YMh-LV-7R1"/>
