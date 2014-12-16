@@ -18,9 +18,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjs-Gx-srd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jjs-Gx-srd">
                                 <rect key="frame" x="239" y="347" width="131" height="37"/>
-                                <color key="backgroundColor" red="0.5192075276" green="0.5192075276" blue="0.5192075276" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.51920752762430933" green="0.51920752762430933" blue="0.51920752762430933" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -40,24 +40,24 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo-1" highlighted="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Ev-39-GHj">
                                 <rect key="frame" x="20" y="125" width="560" height="78"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to ATLAS Institute!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncM-Wh-6mz">
-                                <rect key="frame" x="149" y="264" width="303" height="26"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Welcome to ATLAS Institute!!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncM-Wh-6mz">
+                                <rect key="frame" x="104" y="260" width="404" height="49"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                 <color key="textColor" red="1" green="0.84806099800000001" blue="0.17686770260000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ncM-Wh-6mz" firstAttribute="top" secondItem="8Ev-39-GHj" secondAttribute="bottom" constant="61" id="1ze-jr-uXb"/>
+                            <constraint firstItem="ncM-Wh-6mz" firstAttribute="top" secondItem="8Ev-39-GHj" secondAttribute="bottom" constant="57" id="1ze-jr-uXb"/>
                             <constraint firstItem="8Ev-39-GHj" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="4" id="2mO-v9-962"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ncM-Wh-6mz" secondAttribute="trailing" constant="132" id="35g-tp-YZv"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ncM-Wh-6mz" secondAttribute="trailing" constant="76" id="35g-tp-YZv"/>
                             <constraint firstAttribute="trailingMargin" secondItem="HNf-WK-siM" secondAttribute="trailing" constant="228" id="3oC-Kc-xTk"/>
-                            <constraint firstItem="Jjs-Gx-srd" firstAttribute="top" secondItem="ncM-Wh-6mz" secondAttribute="bottom" constant="57" id="Bi7-E3-NbG"/>
-                            <constraint firstItem="ncM-Wh-6mz" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="133" id="L97-YR-qFR"/>
+                            <constraint firstItem="Jjs-Gx-srd" firstAttribute="top" secondItem="ncM-Wh-6mz" secondAttribute="bottom" constant="38" id="Bi7-E3-NbG"/>
+                            <constraint firstItem="ncM-Wh-6mz" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="88" id="L97-YR-qFR"/>
                             <constraint firstItem="8Ev-39-GHj" firstAttribute="top" secondItem="Eb0-sx-aq3" secondAttribute="bottom" constant="61" id="NGb-iR-F30"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Jjs-Gx-srd" secondAttribute="trailing" constant="214" id="QaP-SY-Btf"/>
-                            <constraint firstItem="Jjs-Gx-srd" firstAttribute="top" secondItem="ncM-Wh-6mz" secondAttribute="bottom" constant="57" id="dib-bE-6WK"/>
+                            <constraint firstItem="Jjs-Gx-srd" firstAttribute="top" secondItem="ncM-Wh-6mz" secondAttribute="bottom" constant="38" id="dib-bE-6WK"/>
                             <constraint firstItem="Jjs-Gx-srd" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="223" id="fQr-X7-99f"/>
                             <constraint firstItem="HNf-WK-siM" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="251" id="fWH-A1-zxE"/>
                             <constraint firstItem="HNf-WK-siM" firstAttribute="top" secondItem="Jjs-Gx-srd" secondAttribute="bottom" constant="60" id="fWf-vN-Qcv"/>
