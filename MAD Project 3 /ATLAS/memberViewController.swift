@@ -13,6 +13,7 @@ class memberListController: UITableViewController, UITableViewDataSource,  UITab
     
     var memberList=Members()
     
+    
     var tableViewController = UITableViewController(style: .Plain)
     
 
@@ -25,6 +26,9 @@ class memberListController: UITableViewController, UITableViewDataSource,  UITab
         memberList.membersData = NSMutableDictionary(contentsOfFile: path!)!
         
         memberList.members = memberList.membersData.allKeys as [String]
+        
+        memberList.members = Array(memberList.members).sorted(<)
+
         
         var refreshControl = UIRefreshControl()
 
