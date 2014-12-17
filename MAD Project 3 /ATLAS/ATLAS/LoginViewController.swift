@@ -38,7 +38,7 @@ class LoginViewController: UIViewController {
             
             // http://127.0.0.1:8888
             
-           var url:NSURL = NSURL(string: "http://127.0.0.1:8888/jsonlogin2.php")!
+           var url:NSURL = NSURL(string: "http://www.oz3.net/milee/jsonlogin2.php")!
             
            // var url:NSURL = NSURL(string: "http://localhost:8888")!
 
