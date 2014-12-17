@@ -31,12 +31,6 @@ class SignUpViewController: UIViewController {
             
             presentViewController(alertController, animated: true, completion: nil)
             
-           // var alertView:UIAlertView = UIAlertView()
-           // alertView.title = "Sign Up Failed!"
-           // alertView.message = "Please enter Username and Password"
-           // alertView.delegate = self
-           // alertView.addButtonWithTitle("OK")
-           // alertView.show()
             
         } else if ( !password.isEqual(confirm_password) ) {
             
@@ -47,15 +41,6 @@ class SignUpViewController: UIViewController {
             
             presentViewController(alertController, animated: true, completion: nil)
             
-
-            
-            //var alertView:UIAlertView = UIAlertView()
-           // alertView.title = "Sign Up Failed!"
-           // alertView.message = "Passwords doesn't Match"
-           // alertView.delegate = self
-           // alertView.addButtonWithTitle("OK")
-           // alertView.show()
-            
         }
         
         
@@ -65,7 +50,7 @@ class SignUpViewController: UIViewController {
             
             NSLog("PostData: %@",post);
             
-            var url:NSURL = NSURL(string: "http://127.0.0.1:8888/jsonsignup.php")!
+            var url:NSURL = NSURL(string: "http://www.oz3.net/milee/jsonsignup.php")!
             
            // var url:NSURL = NSURL(string: "http://localhost:8888")!
             
