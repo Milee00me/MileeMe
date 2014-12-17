@@ -89,7 +89,7 @@ class memberListController: UITableViewController, UITableViewDataSource,  UITab
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let Cell = tableView.dequeueReusableCellWithIdentifier("CellIdentifier", forIndexPath: indexPath) as UITableViewCell
         
-         Cell.textLabel?.text=memberList.members[indexPath.row]
+         Cell.textLabel.text=memberList.members[indexPath.row]
         
         
         
@@ -102,7 +102,7 @@ class memberListController: UITableViewController, UITableViewDataSource,  UITab
         
         else{
             Cell.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.2)
-            Cell.textLabel?.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.0)
+            Cell.textLabel.backgroundColor = UIColor.whiteColor().colorWithAlphaComponent(0.0)
             
         }
         
